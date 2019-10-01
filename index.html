@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en><meta charset=utf-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Caddy Server on {{.Host}}</title>
+	<link rel="stylesheet" href="style.css">
+	<link type=image/x-icon rel="shortcut icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+</head>
+<body data-spy=scroll data-target=#topnav>
+	<nav class="navbar navbar-default navbar-fixed-top" id=topnav>
+		<div class=container>
+			<div class=navbar-header>
+				<button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#navbar aria-expanded=false aria-controls=navbar> <span class=sr-only>Toggle navigation</span>
+					<span class=icon-bar></span>
+					<span class=icon-bar></span>
+					<span class=icon-bar></span>
+				</button> <a class=navbar-brand href=#>{{.Host}}</a>
+			</div>
+			<div id=navbar class="navbar-collapse collapse">
+				<ul class="nav navbar-nav"></ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class=active><a href="#">Home</a>
+					</li>
+					<li><a href="javascript:history.back()">Back</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class=container-fluid>
+		<div class=row>
+			<div id=section1 class="col-md-12 leadsection innershadow deep-space2">
+				<div class=col-md-1></div>
+				<div class=col-md-10>
+					<h1>Caddy Web Server</h1>
+					<br>
+					<p class=lead>If you can read this page, it means that the web server installed at this site is working properly</p> <a class="btn btn-primary btn-lg bigger-btn btn-trans" href=https://github.com/rohan-molloy><i class="fa fa-github" aria-hidden=true></i></a> 
+				</div>
+				<div class=col-md-1></div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
